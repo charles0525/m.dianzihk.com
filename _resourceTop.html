@@ -1,0 +1,20 @@
+<link href="css/layout.css" rel="stylesheet" type="text/css">
+<link type="text/css" rel="stylesheet" href="chrome-extension://dkmhcdjoohoembdckifnppefjhgcmkgb/style.css">
+<script src="js/jquery.min.js"></script>
+<script>
+	var contactData=[];
+	var categoryData=[];
+	getGlobalData();
+	function getGlobalData(){
+		$.get("/data/contact.json",function(data){
+			if(!!data){
+				contactData=data;
+			}
+		});
+		$.get("/data/category.json",function(data){
+			if(!!data){
+				categoryData=data;
+			}
+		});
+	}
+</script>

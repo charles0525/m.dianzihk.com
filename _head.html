@@ -1,0 +1,59 @@
+<!--头部文件-->
+<div class="header">
+	<a class="header-logo" href="/" class="header_logo">
+		<span><img src="images/logo-left.png" style=""></span>
+		<span><img src="images/logo-right.png"></span>
+	</a>
+	<div class="header_r">
+		<div class="header_r_link">
+			<a href="/">中文简体</a>
+		</div>
+		<ul class="header_search">
+			<form action="/" method="post" name="search_form" onsubmit="return check_form_search();">
+				<script language="javascript">
+<!--
+function check_form_search()
+{  
+	if(document.search_form.keys.value.length  ==  0 || document.search_form.keys.value  ==  "站内搜索")
+	{  
+		alert("请输入关键字搜索!");
+		document.search_form.keys.focus();
+		return false;
+	}
+return true;
+}
+-->
+				</script>
+				<li><input name="keys" type="text" id="keys" class="txtSearch"></li>
+				<li style="width:41px; float:right;"><input name="image" type="image" src="images/search_submit.jpg"></li>
+			</form>
+		</ul>
+	</div>
+</div>
+<div class="clearboth">
+</div>
+<!--导航菜单-->
+<div class="menu_box">
+	<ul class="menu" id="nav-list-main">
+		<li><a index="1" href="/">首   页</a></li>
+		<li class="line"></li>
+		<li><a index="2" href="aboutus.shtml">公司概况</a>
+		<ul>
+			<li><a href="aboutus.shtml" style="border:0px;">公司简介</a></li>
+		</ul>
+		</li>
+		<li class="line"></li>
+		<li><a href="/">组织机构</a></li>
+		<li class="line"></li>
+		<li><a href="/">资质证书</a></li>
+		<li class="line"></li>
+		<li><a index="4" href="culture.shtml">企业文化</a>
+		</li>
+		<li class="line"></li>
+		<li><a href="/">工程业绩</a></li>
+		<li class="line"></li>
+		<li><a index="3" href="contactus.shtml">联系我们</a></li>
+	</ul>
+</div>
+<div class="clearboth">
+</div>

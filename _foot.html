@@ -1,0 +1,78 @@
+<div class="clearboth">
+</div>
+<!--页脚-->
+<script type="text/javascript" src="js/share.js"></script>
+<img class="img_sina_share" id="imgSinaShare" style="display: none; cursor: pointer; position: absolute;" title="将选中内容分享到新浪微博" src="images/sina.gif"><img class="img_qq_share" id="imgQqShare" style="display: none; cursor: pointer; position: absolute;" title="将选中内容分享到腾讯微博" src="images/qq.gif">
+<script type="text/javascript" src="js/AspCms_Statistics.asp"></script>
+<div class="footer">
+&copy; 2016-2017 dianzihk.com 版权所有
+	<br>
+ICP备案编号：xxxxxx
+</div>
+<div class="clearboth">
+</div>
+<script src="js/piaofu.js" language="JavaScript"></script>
+<script src="js/AspCms_AdvJs.asp" language="JavaScript"></script>
+<script src="js/AspCms_AdvJs(1).asp" language="JavaScript"></script>
+<script src="js/AspCms_AdvJs(2).asp" language="JavaScript"></script>
+<script>
+	$(function(){
+		var index=getNavIndex();
+		$("#nav-list-main>li>a").removeAttr("id").filter("[index='"+index+"']").attr("id","current");		
+	});
+	function getNavIndex(){
+		var navs=['index.shtml','aboutus.shtml','contactus.shtml','culture.shtml'];
+		var currentPage=location.href;
+		var index=0;
+		$.each(navs,function(i,_item){
+			if(currentPage.indexOf(_item)>=0){
+				index=i;
+				return;
+			}
+		});
+		return index+1;
+	}
+</script>
+<script>
+	$(function(){
+		setTimeout(delayInit,200);
+	});
+	
+	function delayInit(){
+		bindContactInfo();
+		bindCategoryInfo();
+	}
+	
+	function bindContactInfo(){
+		if(!!contactData){
+			if(!!$(".contact-address") && !!contactData.address){
+				$(".contact-address").html(contactData.address);
+			}
+			if(!!$(".contact-email") && !!contactData.email){
+				$(".contact-email").html(contactData.email);
+			}
+			if(!!$(".contact-postcode") && !!contactData.postCode){
+				$(".contact-postcode").html(contactData.postCode);
+			}
+			if(!!$(".contact-telOne") && !!contactData.contactTelOne){
+				$(".contact-telOne").html(contactData.contactTelOne);
+			}
+			if(!!$(".contact-telAll") && !!contactData.contactTelAll){
+				$(".contact-telAll").html(contactData.contactTelAll);
+			}
+		}
+	}
+	function bindCategoryInfo(){
+		var categoryDom=$(".category-list");
+		if(!!categoryData && !!categoryDom && categoryDom.length>0){
+			var urlFormat=categoryDom.attr("data-format");
+			var html="";
+			$.each(categoryData,function(i,_item){
+				html+=urlFormat.replace("{key}",_item.key).replace("{name}",_item.name);
+			});
+			if(!!html){
+				categoryDom.html(html);
+			}
+		}
+	}
+</script>

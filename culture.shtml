@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title>企业文化 - 华河南华科电子工程有限公司</title>
+<meta name="Keywords" content="华河南华科电子工程有限公司">
+<meta name="Description" content="华河南华科电子工程有限公司">
+<!--#include file="_resourceTop.html"-->
+</head>
+<body style="overflow-x:hidden;" screen_capture_injected="true">
+<!--#include file="_head.html"-->
+<!--banner-->
+<div class="Cont_banner" style="background:url(images/201512301415472916.jpg) center no-repeat;">
+</div>
+<div class="clearboth">
+</div>
+<!--主体部分-->
+<div class="Cont_Main">
+	<div class="Cont_Left">
+		<div class="Cont_Left_t">
+		</div>
+		<div class="Cont_Left_m">
+			<div class="Cont_Left_Nav">
+			    <div class="Cont_Left_Nav_title"><span>C</span><font>orporate culture</font> <label>企业文化</label></div>
+				<div class="Cont_Left_Nav_r">您的位置：<a href="/">首页</a> &gt; 企业文化</div>
+			</div>
+			
+			<div class="Content_text">
+				<ul class="culture-content-list">
+					<li>
+						<h1>1、 企业愿景：</h1>
+						<p>以科技力量实现智能化代替人力服务所有客户，成为中国最佳的电子科技工程企业。</p>
+					</li>
+					<li>
+						<h1>2、企业使命：</h1>
+						<p>满意客户、成就员工、造福社会。</p>
+					</li>
+					<li>
+						<h1>3、企业价值观：</h1>
+						<p>诚实守信、快速学习、优质高效、行胜于言。</p>
+					</li>
+					<li>
+						<h1>4、行为准则：</h1>
+						<p>推崇热爱公司，拒绝消极被动。——只有认同、热爱公司，才会快乐的工作。</p>
+						<p>推崇团队作战，拒绝个人主义。——作为部门团队中的一员，要与本团队共成长。</p>
+						<p>
+							推崇正直大气，拒绝歪风邪气。——为人要刚正不阿，对事不对人。</p>
+
+ <p>推崇大公有私，拒绝自私自利。——眼光要长远，不在小事上计较个人得失。推崇好学上进，拒绝不思 进取。——鼓励多学多思多写，不断进步。</p>
+
+ <p>推崇精益求精，拒绝敷衍了事。——做事情要高标准、严要求、多准备预案。不但要把事情做好，而且 要把事情做精。</p>
+
+ <p>推崇严格考评，拒绝散漫拖拉。——月度、季度、年度认真考评，有奖有罚。 </p>
+
+ <p>推崇建言献策，拒绝说三道四。——鼓励沟通交流，有问题及时正面提出及时解决。</p>
+						</p>
+					</li>
+					<li>
+						<h1> 5、项目经营方针：</h1>
+						<p>质量保证、合理利润、计量变更、和谐平顺。</p>
+					</li>
+				</ul>
+			</div>
+		</div>
+		<div class="Cont_Left_b">
+		</div>
+	</div>
+	<!--#include file="_rightMenu.html"-->
+</div>
+<div class="clearboth">
+</div>
+<!--#include file="_foot.html"-->
+</body>
+</html>

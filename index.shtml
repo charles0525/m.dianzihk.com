@@ -1,0 +1,141 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title>河南华科电子工程有限公司</title>
+<meta name="Keywords" content="华河南华科电子工程有限公司">
+<meta name="Description" content="河南华科电子工程有限公司">
+<!--#include file="_resourceTop.html"-->
+</head>
+<body style="overflow-x:hidden;" screen_capture_injected="true">
+<!--#include file="_head.html"-->
+<div class="banner">
+	<div id="container">
+		<div class="flexslider">
+			<ul id="jsF" style="margin:0px auto;">
+			</ul>			
+		</div>
+	</div>
+</div>
+<div class="clearboth">
+</div>
+<!--主体部分-->
+<div class="ind_main" style="margin-top:25px;">
+	<div class="ind_contactus">
+		<div class="ind_contactus-main">
+			<div class="ind_contactus_text">
+地址：<span class="contact-address"></span>(<span class="contact-postcode"></span>)
+			<br>
+邮箱：<span class="contact-email"></span>  
+			</div>
+		</div>		
+	</div>
+	
+	<div class="ind_ygtd">
+		<ul class="ind_ygtd_submit">
+			<li><a href="#" target="_blank"><img src="images/ind_ygtd_submit_1.jpg" width="246" height="96"></a></li>
+			<li><a href="http://qiye.aliyun.com" target="_blank"><img src="images/ind_ygtd_submit_2.jpg" width="246" height="96"></a></li>
+		</ul>
+	</div>
+
+	<div class="ind_box_1">
+		<div class="ind_title_1">
+			<span>新闻资讯</span><label>News</label><a href="#">&gt;&gt;more</a>
+		</div>
+		<div class="ind_news_1">
+			<a href="#" class="ind_news_1_img"><img src="images/201701010724418696.jpg" width="208" height="129"></a>
+			<div class="ind_news_1_r">
+				<a href="#">河南华科电子工程有限公司最新资讯...</a>
+				<span>河南华科电子工程有限公司（华科电子）是一家成立于河南省新乡市的高新技术企业，专业从事各级交通公路收费系统、监控系统、通信系统工程的工程施工，机电设备的维修、维护，机房改造，网络系统，电话系统 ，智能楼宇，报警消防，LED屏幕显示等工程，销售：机备...</span>
+			</div>
+		</div>
+		<ul class="ind_news_2">
+			<li><a href="#">河南华科电子工程有限公司最新资讯...</a><span>2017-02-10</span></li>
+			<li><a href="#">河南华科电子工程有限公司最新资讯...</a><span>2017-02-10</span></li>
+			<li><a href="#">河南华科电子工程有限公司最新资讯...</a><span>2017-02-10</span></li>
+			<li><a href="#">河南华科电子工程有限公司最新资讯...</a><span>2017-02-10</span></li>
+		</ul>
+	</div>
+</div>
+<div class="clearboth">
+</div>
+<!--主体部分-->
+<div class="ind_main">
+	<div class="ind_cls">
+		<div class="ind_title_1" style="width:240px;">
+			<span>主营业务</span><label>Main business</label><!--<a href="#">>>more</a>-->
+		</div>
+		<ul>
+			<li><a href="#">公路机电系统集成</a></li>
+			<li><a href="#">公路机电系统集成</a></li>
+			<li><a href="#">公路机电系统集成</a></li>
+			<li><a href="#">公路机电系统集成</a></li>
+		</ul>
+	</div>
+	<div class="ind_pro">
+		<div class="ind_title_1" style="width:900px;">
+			<span>业务展示</span><label>Exhibition</label><a href="#">&gt;&gt;more</a>
+		</div>
+		<!--开始====================-==========================================================-->
+		<div id="center-three">
+			<div id="center-three-main" class="rollBox">
+				<div style="float:left;padding:50px 8px;" onmousedown="ISL_GoUp()" onmouseup="ISL_StopUp()" onmouseout="ISL_StopUp()">
+					<img style="CURSOR: hand" src="images/scroll_left.jpg">
+				</div>
+				<div id="ISL_Cont" class="Cont" style="overflow: hidden; width: 840px; height: 180px;">
+					<div class="ScrCont">
+						<div id="List1">
+							<div class="pic">
+					          <a href="#"><img src="images/201601061101168595.jpg"  width="200" height="145" class="case_img_border" /></a>					          
+					          <a href="#">标题</a>
+					         </div> 
+					         <div class="pic">
+					          <a href="#" target="_blank"><img src="images/201601061101168595.jpg"  width="200" height="145" class="case_img_border" /></a>					          
+					          <a href="#">标题</a>
+					         </div> 
+					         <div class="pic">
+					          <a href="#" target="_blank"><img src="images/201601061101168595.jpg"  width="200" height="145" class="case_img_border" /></a>					          
+					          <a href="#">标题</a>
+					         </div> 
+					         <div class="pic">
+					          <a href="#" target="_blank"><img src="images/201601061101168595.jpg"  width="200" height="145" class="case_img_border" /></a>					          
+					          <a href="#">标题</a>
+					         </div> 
+					         <div class="pic">
+					          <a href="#" target="_blank"><img src="images/201601061101168595.jpg"  width="200" height="145" class="case_img_border" /></a>					          
+					          <a href="#">标题</a>
+					         </div> 
+					         <div class="pic">
+					          <a href="#" target="_blank"><img src="images/201601061101168595.jpg"  width="200" height="145" class="case_img_border" /></a>					          
+					          <a href="#">标题</a>
+					         </div> 
+					         <div class="pic">
+					          <a href="#" target="_blank"><img src="images/201601061101168595.jpg"  width="200" height="145" class="case_img_border" /></a>					          
+					          <a href="#">标题</a>
+					         </div> 
+						</div>
+						<div id="List2"></div>
+					</div>
+				</div>
+				<div style="float:right;padding:50px 8px;" onmousedown="ISL_GoDown()" onmouseup="ISL_StopDown()" onmouseout="ISL_StopDown()">
+					<img style="CURSOR: hand" src="images/scroll_right.jpg">
+				</div>
+				
+			</div>
+		</div>
+		<!--结束===============================================================================-->
+	</div>
+</div>
+<div class="clearboth">
+</div>
+<!--<div class="ind_friend">
+	<div class="ind_friend_r">
+		<a href="#" target="_blank">链接1</a>&nbsp;&nbsp;/&nbsp;
+		<a href="#" target="_blank">链接2</a>&nbsp;&nbsp;/&nbsp;
+	</div>
+</div>-->
+<!--#include file="_foot.html"-->
+</body>
+</html>
+<script src="js/slide-img.js"></script>
+<script src="js/scroll-img.js"></script>
